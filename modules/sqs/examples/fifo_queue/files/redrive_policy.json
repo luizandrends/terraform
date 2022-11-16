@@ -1,0 +1,4 @@
+{
+  "deadLetterTargetArn": "dead-queue-arn-here",
+  "maxReceiveCount": 5
+}

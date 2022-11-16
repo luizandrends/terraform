@@ -1,0 +1,12 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Sid": "PolicyTest",
+          "Effect": "Allow",
+          "Principal": "*",
+          "Action": "s3:*",
+          "Resource": ["arn:aws:s3:::policy-bucket-8a9dd41a-37d5-829a-4052-07c73367f7c4"]
+      }
+  ]
+}
