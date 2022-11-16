@@ -7,7 +7,7 @@ module "s3" {
   versioning_enabled = "Enabled"
 
   create_policy = true
-  policy = file("./files/policy.json")
+  policy        = file("./files/policy.json")
 
   tags = {
     "ManagedBy" : "Terraform"

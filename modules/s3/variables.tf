@@ -23,8 +23,8 @@ variable "versioning_enabled" {
 }
 
 variable "create_policy" {
-  type = bool
-  default = false
+  type        = bool
+  default     = false
   description = "Policy creation"
 }
 
